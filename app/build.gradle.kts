@@ -55,4 +55,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    // Biblioteca Vico para Gráficos no Jetpack Compose
+    implementation("com.patrykandpatrick.vico:compose-m3:2.0.0-alpha.28")
 }
